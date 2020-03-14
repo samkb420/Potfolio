@@ -1,0 +1,9 @@
+#parallax-image{
+    background-image: url("{{url_for('static',filename='pics/parallax1.jpeg')}}");
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+}
