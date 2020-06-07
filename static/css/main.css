@@ -1,9 +1,39 @@
-#parallax-image{
-    background-image: url("{{url_for('static',filename='pics/parallax1.jpeg')}}");
-    height: 500px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-bottom: 50px;
-    background-attachment: fixed;
-    background-position: center;
+*{
+  margin: 0;
+  padding: 0;
+}
+  
+.border-box {
+    width: 50%;
+    height: 100%;
+    padding: 50px;
+    background-color:white;
+    
+    box-sizing: border-box;
+  }
+
+.invalid-feedback,span{
+      display: inline;
+      
+  }
+
+#sidebar{
+  position: fixed;
+  width: 250px;
+  height: 100%;
+  background-color:black;
+}
+#sidebar ul li {
+  color: white;
+  padding: 15px 10px;
+  border-bottom: 1px solid rgb(100,100,100, 0.3);
+  font-size: large;
+
+}
+
+#sidebar .toggle-btn{
+  position: absolute;
+  left: 270px;
+  top:20px;
+
 }
